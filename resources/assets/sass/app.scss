@@ -1,0 +1,30 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+//FontAwesome Variables
+$fa-font-path:        "../webfonts";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+//FontAwesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+// Admin LTE
+@import "~admin-lte/dist/css/AdminLTE.css";
+
+// Admin LTE Skin
+@import "~admin-lte/dist/css/skins/_all-skins.min.css";
+
+.navbar-nav > .user-menu > .dropdown-menu > li.user-header{
+    height: auto;
+}
+.main-header .sidebar-toggle:before{
+    content: none;
+}
